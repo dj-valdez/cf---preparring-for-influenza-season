@@ -1,2 +1,3 @@
-# cf---preparring-for-influenza-season
-To help a medical staffing agency that provides temporary workers to clinics and hospitals on an as-needed basis. The analysis will help plan for influenza season, a time when additional staff are in high demand. The final results will examine trends in influenza and how they can be used to proactively plan for staffing needs across the country. 
+# CF-Rockbuster Stealth Data Analysis Project
+Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive. 
+This analysis answers important questions the Rockbuster Stealth’s business intelligence (BI) department has to help launch a successful strategy for the new online video service. 
