@@ -41,3 +41,46 @@ SQL query to calculate descriptive statistics for customer table
 
 SELECT COUNT(customer_id)
 FROM customer
+
+Output:
+
+Column1	Column2
+Number of films	1000
+Release year for all films	2006
+Number of lanuages	1000
+	
+Rental duration min (days)	3
+Rental duration max (days)	7
+Rental duration avg (days)	4.985
+	
+Rental rate min	 $0.99 
+Rental rate max	 $4.99 
+Rental rate avg	 $2.98 
+	
+Rental length min (minutes)	46
+Rental length max (minutes)	185
+Rental length avg (minutes)	115.272
+	
+Film replacement cost min	 $9.99 
+Film replacement cost max	 $29.99 
+Film replacement cost avg	 $19.98 
+	
+Number R rated films	195
+Number NC-17 rated films	210
+Number G rated films	178
+Number PG rated films	194
+Number PG-13 rated films	223
+	
+Most common special feature	{Trailers,Commentaries,"Behind the Scenes"}
+	
+Number of customers	599
+	
+Number of customer profiles created per store 1	326
+Number of customer profiles created per store 2	273
+	
+Date when all profiles were created	2006-02-14
+	
+Number of customer profiles not active (0)	15
+Number of customer profiles not active (1)	584
+	
+Number of countries customers are located in 	108
