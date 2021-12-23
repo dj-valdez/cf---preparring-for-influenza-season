@@ -1,4 +1,4 @@
-# Film table
+SQL queries to calculate descriptive statistics for film table
 
 SELECT COUNT(film_id)
 FROM film
@@ -37,7 +37,7 @@ SELECT mode() WITHIN GROUP (ORDER BY special_features)
        AS modal_value
 FROM film;
 
-# Customer table
+SQL query to calculate descriptive statistics for customer table
 
 SELECT COUNT(customer_id)
 FROM customer
