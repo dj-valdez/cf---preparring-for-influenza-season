@@ -1,4 +1,4 @@
-#Movie category by sum of revenue
+Movie category by sum of revenue
 
 SELECT A.name AS category_name,SUM(F.amount) AS revenue					
 FROM category A					
@@ -9,4 +9,3 @@ INNER JOIN rental E ON D.inventory_id = E.inventory_id
 INNER JOIN payment F ON E.rental_id = F.rental_id					
 GROUP BY A.name					
 ORDER BY revenue DESC					
-
