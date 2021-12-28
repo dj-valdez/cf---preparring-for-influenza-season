@@ -11,7 +11,7 @@ The Rockbuster Stealth Management Board has asked a series of business questions
 - Do sales figures vary between geographic regions? 
 
 ## Data Set
-Data set provided by Career Foundry. Date set contains information about Rockbuster’s film inventory, customers, payments, rental history, and much more. This data set will be loaded into the PostgreSQL database where quieries will be written to extract the requiered data to answer the key questions. 
+Data set provided by Career Foundry. Data set contains information about Rockbuster’s film inventory, customers, payments, rental history, and much more. This data set was be loaded into the PostgreSQL database where quieries were written to extract the requiered data to answer the key questions. 
 
 ## Project Deliverables 
-The results of this analysis will be complied into an easily digestible format, which will be presented to the Rockbuster Stealth Management Board. 
+The results of this analysis was complied into an easily digestible format, which was be presented to the Rockbuster Stealth Management Board. 
