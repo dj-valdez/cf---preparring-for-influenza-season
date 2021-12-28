@@ -1,0 +1,1982 @@
+Avg rental duration by title
+
+SELECT title, AVG(rental_duration) AS avg_rental_duration				
+FROM film				
+GROUP BY title				
+ORDER BY avg_rental_duration DESC				
+
+Output
+
+title	avg_rental_duration
+Primary Glass	7
+Braveheart Human	7
+Grinch Massage	7
+Saturn Name	7
+Stepmom Dream	7
+Enough Raging	7
+Private Drop	7
+Worker Tarzan	7
+Wanda Chamber	7
+Graduate Lord	7
+Menagerie Rushmore	7
+Sleeping Suspects	7
+Uncut Suicides	7
+Boondock Ballroom	7
+Firehouse Vietnam	7
+Cyclone Family	7
+Slacker Liaisons	7
+Bowfinger Gables	7
+Forever Candidate	7
+Dangerous Uptown	7
+Bringing Hysterical	7
+Walls Artist	7
+Canyon Stock	7
+Peak Forever	7
+Loverboy Attacks	7
+Shrek License	7
+Impossible Prejudice	7
+Heaven Freedom	7
+Reds Pocus	7
+Music Boondock	7
+Escape Metropolis	7
+Truman Crazy	7
+Spiking Element	7
+Greedy Roots	7
+Desperate Trainspotting	7
+Forrester Comancheros	7
+Dirty Ace	7
+Crazy Home	7
+Home Pity	7
+Silence Kane	7
+Dracula Crystal	7
+Legally Secretary	7
+Cruelty Unforgiven	7
+Smoking Barbarella	7
+Soldiers Evolution	7
+Robbers Joon	7
+Westward Seabiscuit	7
+Notorious Reunion	7
+Coneheads Smoochy	7
+Boiled Dares	7
+Lock Rear	7
+Vietnam Smoochy	7
+Adaptation Holes	7
+Deceiver Betrayed	7
+Shock Cabin	7
+Island Exorcist	7
+Gun Bonnie	7
+Frankenstein Stranger	7
+Dinosaur Secretary	7
+Born Spinal	7
+Greek Everyone	7
+Hardly Robbers	7
+War Notting	7
+Diary Panic	7
+Bikini Borrowers	7
+Rebel Airport	7
+Trainspotting Strangers	7
+Madre Gables	7
+Hook Chariots	7
+Racer Egg	7
+Order Betrayed	7
+Mighty Luck	7
+Vanilla Day	7
+Won Dares	7
+Unfaithful Kill	7
+Spirit Flintstones	7
+Luck Opus	7
+Desire Alien	7
+Glory Tracy	7
+Igby Maker	7
+Valentine Vanishing	7
+Oscar Gold	7
+Lies Treatment	7
+Siege Madre	7
+Lights Deer	7
+Roman Punk	7
+Empire Malkovich	7
+Perfect Groove	7
+Speed Suit	7
+Blackout Private	7
+Iron Moon	7
+Paris Weekend	7
+Varsity Trip	7
+Ghostbusters Elf	7
+Citizen Shrek	7
+Patient Sister	7
+Chamber Italian	7
+Moon Bunch	7
+Hedwig Alter	7
+Lawrence Love	7
+Flight Lies	7
+Shepherd Midsummer	7
+Brooklyn Desert	7
+Earth Vision	7
+Bride Intrigue	7
+Games Bowfinger	7
+Sensibility Rear	7
+Dolls Rage	7
+Borrowers Bedazzled	7
+Operation Operation	7
+Santa Paris	7
+Open African	7
+Lucky Flying	7
+Unforgiven Zoolander	7
+Musketeers Wait	7
+Chaplin License	7
+Elizabeth Shane	7
+Outlaw Hanky	7
+Bucket Brotherhood	7
+Trip Newton	7
+Perdition Fargo	7
+Spinal Rocky	7
+Clockwork Paradise	7
+Jet Neighbors	7
+Wash Heavenly	7
+Legend Jedi	7
+Control Anthem	7
+Cider Desire	7
+Volume House	7
+Gandhi Kwai	7
+Contact Anonymous	7
+Darling Breaking	7
+Philadelphia Wife	7
+Holes Brannigan	7
+Coldblooded Darling	7
+Streak Ridgemont	7
+Darn Forrester	7
+Chinatown Gladiator	7
+Hamlet Wisdom	7
+Curtain Videotape	7
+Holiday Games	7
+Records Zorro	7
+Sky Miracle	7
+Hollywood Anonymous	7
+Room Roman	7
+Wasteland Divine	7
+Dares Pluto	7
+Roof Champion	7
+Catch Amistad	7
+Wolves Desire	7
+Carrie Bunch	7
+Texas Watch	7
+Jedi Beneath	7
+Smoochy Control	7
+Opposite Necklace	7
+Undefeated Dalmations	7
+Killer Innocent	7
+Blanket Beverly	7
+Argonauts Town	7
+Stock Glass	7
+Sinners Atlantis	7
+Grease Youth	7
+Deer Virginian	7
+Shanghai Tycoon	7
+Married Go	7
+License Weekend	7
+Reservoir Adaptation	7
+Celebrity Horn	7
+Oklahoma Jumanji	7
+Chasing Fight	7
+Others Soup	7
+Wagon Jaws	7
+Gone Trouble	7
+Anonymous Human	7
+Towers Hurricane	7
+Gilbert Pelican	7
+House Dynamite	7
+Saddle Antitrust	7
+Wake Jaws	7
+Confessions Maguire	7
+Muscle Bright	7
+Hollow Jeopardy	7
+Freaky Pocus	7
+Notting Speakeasy	7
+Story Side	7
+Mulholland Beast	7
+Party Knock	7
+Fugitive Maguire	7
+Right Cranes	7
+Christmas Moonshine	7
+Pond Seattle	7
+Beneath Rush	6
+Inch Jet	6
+Zhivago Core	6
+Werewolf Lola	6
+Extraordinary Conquerer	6
+Halloween Nuts	6
+Highball Potter	6
+Congeniality Quest	6
+Airplane Sierra	6
+Movie Shakespeare	6
+Coma Head	6
+Malkovich Pet	6
+Amadeus Holy	6
+Chicago North	6
+Floats Garden	6
+Bill Others	6
+Durham Panky	6
+Happiness United	6
+Airport Pollock	6
+Divide Monster	6
+Warlock Werewolf	6
+Fellowship Autumn	6
+Jade Bunch	6
+Chainsaw Uptown	6
+Scalawag Duck	6
+Watership Frontier	6
+Chill Luck	6
+Apocalypse Flamingos	6
+Bull Shawshank	6
+Butch Panther	6
+Groundhog Uncut	6
+Sorority Queen	6
+Spy Mile	6
+Crystal Breaking	6
+Disturbing Scarface	6
+President Bang	6
+Secret Groundhog	6
+Maude Mod	6
+Lion Uncut	6
+Barefoot Manchurian	6
+Impact Aladdin	6
+Cheaper Clyde	6
+Heavyweights Beast	6
+Homicide Peach	6
+Deep Crusade	6
+Clones Pinocchio	6
+Wardrobe Phantom	6
+Murder Antitrust	6
+Outbreak Divine	6
+Reap Unfaithful	6
+Requiem Tycoon	6
+Craft Outfield	6
+Alaska Phantom	6
+Frida Slipper	6
+Jersey Sassy	6
+Bird Independence	6
+Phantom Glory	6
+Barbarella Streetcar	6
+Dream Pickup	6
+Blindness Gun	6
+Maltese Hope	6
+Mosquito Armageddon	6
+Tomatoes Hellfighters	6
+Metal Armageddon	6
+October Submarine	6
+Wonka Sea	6
+African Egg	6
+Shakespeare Saddle	6
+Hurricane Affair	6
+Shootist Superfly	6
+Matrix Snowman	6
+Jungle Closer	6
+Gladiator Westward	6
+Patriot Roman	6
+Dwarfs Alter	6
+Beethoven Exorcist	6
+Drop Waterfront	6
+Massacre Usual	6
+Runner Madigan	6
+Rushmore Mermaid	6
+Steers Armageddon	6
+Tadpole Park	6
+Driving Polish	6
+Dragonfly Strangers	6
+Runaway Tenenbaums	6
+Ballroom Mockingbird	6
+Alter Victory	6
+Darkness War	6
+Bedazzled Married	6
+Victory Academy	6
+Mask Peach	6
+Arabia Dogma	6
+Chitty Lock	6
+Dancing Fever	6
+Sunset Racer	6
+Resurrection Silverado	6
+Shrunk Divine	6
+Microcosmos Paradise	6
+Fantasy Troopers	6
+Groove Fiction	6
+Pride Alamo	6
+Cleopatra Devil	6
+Willow Tracy	6
+Poseidon Forever	6
+Labyrinth League	6
+Maguire Apache	6
+Intrigue Worst	6
+Wyoming Storm	6
+Holocaust Highball	6
+Forward Temple	6
+Alice Fantasia	6
+Mixed Doors	6
+Full Flatliners	6
+Trading Pinocchio	6
+Ending Crowds	6
+Storm Happiness	6
+Fatal Haunted	6
+Platoon Instinct	6
+Commandments Express	6
+Monterey Labyrinth	6
+Mussolini Spoilers	6
+Dozen Lion	6
+Frontier Cabin	6
+Soup Wisdom	6
+Drums Dynamite	6
+Alley Evolution	6
+Trouble Date	6
+Badman Dawn	6
+Encino Elf	6
+Voyage Legally	6
+Pocus Pulp	6
+Flying Hook	6
+Beach Heartbreakers	6
+Pianist Outfield	6
+Seabiscuit Punk	6
+Element Freddy	6
+Talented Homicide	6
+Monsoon Cause	6
+Atlantis Cause	6
+Montezuma Command	6
+Uprising Uptown	6
+Academy Dinosaur	6
+Feud Frogmen	6
+Gentlemen Stage	6
+Telemark Heartbreakers	6
+Wrong Behavior	6
+Prejudice Oleander	6
+Odds Boogie	6
+Freddy Storm	6
+Voice Peach	6
+Shawshank Bubble	6
+Lawless Vision	6
+Confidential Interview	6
+Sassy Packer	6
+Mod Secretary	6
+Lambs Cincinatti	6
+Half Outfield	6
+Love Suicides	6
+Analyze Hoosiers	6
+Volcano Texas	6
+Virgin Daisy	6
+Frisco Forrest	6
+Wind Phantom	6
+Casablanca Super	6
+Random Go	6
+Devil Desire	6
+Leathernecks Dwarfs	6
+Hunger Roof	6
+Alamo Videotape	6
+Clash Freddy	6
+Hotel Happiness	6
+Candles Grapes	6
+Young Language	6
+Rear Trading	6
+Effect Gladiator	6
+Crooked Frogmen	6
+Haunted Antitrust	6
+Jingle Sagebrush	6
+Masked Bubble	6
+Boogie Amelie	6
+Color Philadelphia	6
+Dazed Punk	6
+Pilot Hoosiers	6
+Hunting Musketeers	6
+Holy Tadpole	6
+Mars Roman	6
+Crow Grease	6
+Witches Panic	6
+Goldmine Tycoon	6
+Town Ark	6
+Sweden Shining	6
+Exorcist Sting	6
+Aladdin Calendar	6
+Punk Divorce	6
+Rules Human	6
+Tequila Past	6
+Ghost Groundhog	6
+Connection Microcosmos	6
+Monster Spartacus	6
+Snatch Slipper	6
+Intolerable Intentions	6
+Speakeasy Date	6
+Caper Motions	6
+Lebowski Soldiers	6
+Early Home	6
+Harold French	6
+Nash Chocolat	6
+Amistad Midsummer	6
+Ark Ridgemont	6
+Clue Grail	6
+Japanese Run	6
+Polish Brooklyn	6
+Doubtfire Labyrinth	5
+Scissorhands Slums	5
+Majestic Floats	5
+Past Suicides	5
+Gunfight Moon	5
+Quest Mussolini	5
+Panther Reds	5
+Antitrust Tomatoes	5
+Yentl Idaho	5
+Jason Trap	5
+Stallion Sundance	5
+Easy Gladiator	5
+Graceland Dynamite	5
+Affair Prejudice	5
+Hawk Chill	5
+Muppet Mile	5
+Freedom Cleopatra	5
+Terminator Club	5
+Dorado Notting	5
+Hanging Deep	5
+Streetcar Intentions	5
+Savannah Town	5
+Falcon Volume	5
+Cincinatti Whisperer	5
+Virginian Pluto	5
+Attacks Hate	5
+Lord Arizona	5
+Roses Treasure	5
+Rider Caddyshack	5
+Jawbreaker Brooklyn	5
+Potter Connecticut	5
+Drifter Commandments	5
+Sabrina Midnight	5
+Roxanne Rebel	5
+Fidelity Devil	5
+Star Operation	5
+Expecations Natural	5
+Rollercoaster Bringing	5
+Queen Luke	5
+Bound Cheaper	5
+Pollock Deliverance	5
+Armageddon Lost	5
+Edge Kissing	5
+Oleander Clue	5
+Mystic Truman	5
+Chocolat Harry	5
+Artist Coldblooded	5
+Rings Heartbreakers	5
+Temple Attraction	5
+Theory Mermaid	5
+Manchurian Curtain	5
+Berets Agent	5
+Uptown Young	5
+Center Dinosaur	5
+Vision Torque	5
+Liaisons Sweet	5
+Alien Center	5
+Network Peak	5
+Name Detective	5
+Cat Coneheads	5
+Circus Youth	5
+Traffic Hobbit	5
+Nuts Ties	5
+Moonwalker Fool	5
+Watch Tracy	5
+Hobbit Alien	5
+Command Darling	5
+Bed Highball	5
+Mourning Purple	5
+Language Cowboy	5
+Nemo Campus	5
+Hanky October	5
+Usual Untouchables	5
+Encounters Curtain	5
+Apollo Teen	5
+Stampede Disturbing	5
+Attraction Newton	5
+Hall Cassidy	5
+Slums Duck	5
+Dogma Family	5
+Cranes Reservoir	5
+Pluto Oleander	5
+Creepers Kane	5
+Superfly Trip	5
+Northwest Polish	5
+Gilmore Boiled	5
+Wars Pluto	5
+Noon Papi	5
+Bang Kwai	5
+Vanished Garden	5
+Frogmen Breaking	5
+Slipper Fidelity	5
+Homeward Cider	5
+Hyde Doctor	5
+Jacket Frisco	5
+Untouchables Sunrise	5
+Frost Head	5
+Saints Bride	5
+Express Lonely	5
+Thief Pelican	5
+Submarine Bed	5
+Heavenly Gun	5
+Beauty Grease	5
+Blues Instinct	5
+Weekend Personal	5
+Sister Freddy	5
+School Jacket	5
+Stagecoach Armageddon	5
+Hanover Galaxy	5
+League Hellfighters	5
+Fever Empire	5
+Samurai Lion	5
+Madigan Dorado	5
+Flatliners Killer	5
+Side Ark	5
+Breakfast Goldfinger	5
+Paradise Sabrina	5
+Tights Dawn	5
+Kentuckian Giant	5
+Super Wyoming	5
+Harry Idaho	5
+Cassidy Wyoming	5
+Kane Exorcist	5
+Sun Confessions	5
+Psycho Shrunk	5
+Banger Pinocchio	5
+Shane Darkness	5
+Splendor Patton	5
+Independence Hotel	5
+Mermaid Insects	5
+Hysterical Grail	5
+Ice Crossing	5
+Daddy Pittsburgh	5
+Betrayed Rear	5
+Fire Wolves	5
+Splash Gump	5
+Comancheros Enemy	5
+Sundance Invasion	5
+Idols Snatchers	5
+Eve Resurrection	5
+Spirited Casualties	5
+Louisiana Harry	5
+Pity Bound	5
+Evolution Alter	5
+Balloon Homeward	5
+Sling Luke	5
+Gleaming Jawbreaker	5
+Fantasia Park	5
+Birds Perdition	5
+Summer Scarface	5
+Kiss Glory	5
+Chariots Conspiracy	5
+Opus Ice	5
+Luke Mummy	5
+Zoolander Fiction	5
+Closer Bang	5
+Grosse Wonderful	5
+Sleepless Monsoon	5
+Gosford Donnie	5
+Remember Diary	5
+Giant Troopers	5
+Loser Hustler	5
+Entrapment Satisfaction	5
+Enemy Odds	5
+Bingo Talented	5
+Haunting Pianist	5
+Motions Details	5
+Greatest North	5
+Secretary Rouge	5
+Invasion Cyclone	5
+Crossroads Casualties	5
+Reef Salute	5
+French Holiday	5
+Ship Wonderland	5
+Thin Sagebrush	5
+Wrath Mile	5
+Anthem Luke	5
+Duffel Apocalypse	5
+Kwai Homeward	5
+Insider Arizona	5
+Campus Remember	5
+Chisum Behavior	5
+Daisy Menagerie	5
+Baby Hall	5
+Dumbo Lust	5
+Hills Neighbors	5
+Dying Maker	5
+Apache Divine	5
+Spice Sorority	5
+Blade Polish	5
+Hunter Alter	5
+Strangers Graffiti	4
+Dawn Pond	4
+Driver Annie	4
+Tourist Pelican	4
+Goodfellas Salute	4
+Conquerer Nuts	4
+Elf Murder	4
+Spartacus Cheaper	4
+Horn Working	4
+Finding Anaconda	4
+South Wait	4
+Suspects Quills	4
+Quills Bull	4
+Seattle Expecations	4
+Forrest Sons	4
+Villain Desperate	4
+Panky Submarine	4
+Bubble Grosse	4
+Newton Labyrinth	4
+Snatchers Montezuma	4
+Mulan Moon	4
+River Outlaw	4
+Sea Virgin	4
+Raging Airplane	4
+Prix Undefeated	4
+Divine Resurrection	4
+Fiddler Lost	4
+Fish Opus	4
+Gathering Calendar	4
+Fiction Christmas	4
+Vacation Boondock	4
+Basic Easy	4
+Orange Grapes	4
+Handicap Boondock	4
+Moulin Wake	4
+Model Fish	4
+Youth Kick	4
+Dragon Squad	4
+Madison Trap	4
+Champion Flatliners	4
+Crossing Divorce	4
+Duck Racer	4
+State Wasteland	4
+Doom Dancing	4
+Head Stranger	4
+Steel Santa	4
+Bulworth Commandments	4
+Tramp Others	4
+Eagles Panky	4
+Detective Vision	4
+Stage World	4
+Breaking Home	4
+Knock Warlock	4
+Arachnophobia Rollercoaster	4
+Arsenic Independence	4
+Hours Rage	4
+Lost Bird	4
+Brannigan Sunrise	4
+Elephant Trojan	4
+Newsies Story	4
+Everyone Craft	4
+Hunchback Impossible	4
+Connecticut Tramp	4
+Conversation Downhill	4
+Factory Dragon	4
+Crusade Honey	4
+Seven Swarm	4
+Working Microcosmos	4
+Grail Frankenstein	4
+Sagebrush Clueless	4
+Lady Stage	4
+Pizza Jumanji	4
+Jumping Wrath	4
+North Tequila	4
+Waterfront Deliverance	4
+Sleuth Orient	4
+Bugsy Song	4
+Suicides Silence	4
+Worst Banger	4
+Fireball Philadelphia	4
+Mallrats United	4
+Candidate Perdition	4
+Egg Igby	4
+Magnolia Forrester	4
+Cupboard Sinners	4
+Details Packer	4
+Donnie Alley	4
+Something Duck	4
+Gorgeous Bingo	4
+Hope Tootsie	4
+Shining Roses	4
+Lola Agent	4
+Conspiracy Spirit	4
+Coast Rainbow	4
+Bunch Minds	4
+Dynamite Tarzan	4
+Ishtar Rocketeer	4
+Eyes Driving	4
+Hate Handicap	4
+Rage Games	4
+Sleepy Japanese	4
+Madness Attacks	4
+Mockingbird Hollywood	4
+Pinocchio Simon	4
+Swarm Gold	4
+Karate Moon	4
+Natural Stock	4
+Calendar Gunfight	4
+Hocus Frida	4
+Juggler Hardly	4
+Women Dorado	4
+Lolita World	4
+Mile Mulan	4
+Rocky War	4
+Silverado Goldfinger	4
+West Lion	4
+Informer Double	4
+Purple Movie	4
+Minority Kiss	4
+Paycheck Wait	4
+Gaslight Crusade	4
+Memento Zoolander	4
+Pelican Comforts	4
+Amelie Hellfighters	4
+Carol Texas	4
+Interview Liaisons	4
+Flamingos Connecticut	4
+Smile Earring	4
+Wizard Coldblooded	4
+Instinct Airport	4
+Titans Jerk	4
+Maker Gables	4
+Bright Encounters	4
+Life Twisted	4
+Glass Dying	4
+Vertigo Northwest	4
+Indian Love	4
+Novocaine Flight	4
+Wild Apollo	4
+Jekyll Frogmen	4
+Rock Instinct	4
+Kill Brotherhood	4
+Cabin Flash	4
+Ali Forever	4
+Jaws Harry	4
+Clyde Theory	4
+Birdcage Casper	4
+Illusion Amelie	4
+Whisperer Giant	4
+Guys Falcon	4
+Grapes Fury	4
+Family Sweet	4
+Army Flintstones	4
+California Birds	4
+Identity Lover	4
+Deliverance Mulholland	4
+National Story	4
+Clueless Bucket	4
+Massage Image	4
+Pulp Beverly	4
+Desert Poseidon	4
+Gangs Pride	4
+Tenenbaums Command	4
+Salute Apollo	4
+Ladybugs Armageddon	4
+Whale Bikini	4
+Double Wrath	4
+Oz Liaisons	4
+Loathing Legally	4
+Birch Antitrust	4
+Doctor Grail	4
+Sense Greek	4
+Jumanji Blade	4
+Twisted Pirates	4
+Dalmations Sweden	4
+Vampire Whale	4
+Million Ace	4
+Robbery Bright	4
+Spoilers Hellfighters	4
+Pirates Roxanne	4
+Destiny Saturday	4
+Galaxy Sweethearts	4
+Strangelove Desire	4
+Pittsburgh Hunchback	4
+Taxi Kick	4
+Videotape Arsenic	4
+Metropolis Coma	4
+Outfield Massacre	4
+Roots Remember	4
+Club Graffiti	4
+Rugrats Shakespeare	4
+Road Roxanne	4
+Patton Interview	4
+Raiders Antitrust	4
+Translation Summer	4
+Date Speed	4
+Moonshine Cabin	4
+Mob Duffel	4
+Gold River	4
+Anything Savannah	4
+Bonnie Holocaust	4
+Wonderland Christmas	4
+Bear Graceland	4
+Strictly Scarface	3
+Ties Hunger	3
+Charade Duffel	3
+Treasure Command	3
+Fool Mockingbird	3
+Anaconda Confessions	3
+King Evolution	3
+Intentions Empire	3
+Wedding Apollo	3
+Godfather Diary	3
+Sons Interview	3
+Window Side	3
+Searchers Wait	3
+Destination Jerk	3
+Italian African	3
+Rainbow Shock	3
+Ridgemont Submarine	3
+Redemption Comforts	3
+Liberty Magnificent	3
+Miracle Virtual	3
+Reign Gentlemen	3
+Paths Control	3
+Heartbreakers Bright	3
+Wonderful Drop	3
+Rush Goodfellas	3
+Agent Truman	3
+Sugar Wonka	3
+Pure Runner	3
+Graffiti Love	3
+Sunrise League	3
+Turn Star	3
+Vanishing Rocky	3
+Scarface Bang	3
+Harper Dying	3
+Backlash Undefeated	3
+English Bulworth	3
+Stranger Strangers	3
+Feathers Metal	3
+Casper Dragonfly	3
+Titanic Boondock	3
+Behavior Runaway	3
+Downhill Enough	3
+Dances None	3
+Fargo Gandhi	3
+Tarzan Videotape	3
+Rocketeer Mother	3
+Simon North	3
+Lust Lock	3
+Kick Savannah	3
+Packer Madigan	3
+Princess Giant	3
+Magic Mallrats	3
+Darko Dorado	3
+Minds Truman	3
+Gump Date	3
+Trojan Tomorrow	3
+Baked Cleopatra	3
+Ace Goldfinger	3
+Peach Innocent	3
+Pickup Driving	3
+Mission Zoolander	3
+Secrets Paradise	3
+Alone Trip	3
+Panic Club	3
+Chicken Hellfighters	3
+Innocent Usual	3
+Suit Walls	3
+Creatures Shakespeare	3
+Day Unfaithful	3
+Mine Titans	3
+Blood Argonauts	3
+Lonely Elephant	3
+Wife Turn	3
+Mother Oleander	3
+Valley Packer	3
+Confused Candles	3
+Horror Reign	3
+Song Hedwig	3
+Disciple Mother	3
+Idaho Love	3
+Satisfaction Confidential	3
+Teen Apollo	3
+Meet Chocolate	3
+Trap Guys	3
+Neighbors Charade	3
+Beverly Outlaw	3
+Grit Clockwork	3
+Jerk Paycheck	3
+Kissing Dolls	3
+Boulevard Mob	3
+Stone Fire	3
+Angels Life	3
+Straight Hours	3
+American Circus	3
+Tracy Cider	3
+Annie Identity	3
+Joon Northwest	3
+Lesson Cleopatra	3
+Pajama Jawbreaker	3
+Range Moonwalker	3
+Garden Island	3
+Comforts Rush	3
+Autumn Crow	3
+Hellfighters Sierra	3
+Unbreakable Karate	3
+Alabama Devil	3
+High Encino	3
+Necklace Outbreak	3
+Lose Inch	3
+Rouge Squad	3
+Go Purple	3
+Virtual Spoilers	3
+Drumline Cyclone	3
+Run Pacific	3
+Midnight Westward	3
+Caddyshack Jedi	3
+Caribbean Liberty	3
+Dude Blindness	3
+Magnificent Chitty	3
+Sierra Divide	3
+Insects Stone	3
+Jericho Mulan	3
+Flintstones Happiness	3
+Ferris Mother	3
+Gunfighter Mussolini	3
+Show Lord	3
+Fury Murder	3
+Pet Haunting	3
+Bilko Anonymous	3
+Excitement Eve	3
+Core Suit	3
+Cowboy Doom	3
+Personal Ladybugs	3
+Lovely Jingle	3
+Cause Date	3
+Troopers Metal	3
+Timberland Sky	3
+Earring Instinct	3
+Expendable Stallion	3
+Tomorrow Hustler	3
+Daughter Madigan	3
+Chance Resurrection	3
+Gables Metropolis	3
+Maiden Home	3
+Words Hunter	3
+Snowman Rollercoaster	3
+Butterfly Chocolat	3
+Camelot Vacation	3
+Tootsie Pilot	3
+Scorpion Apollo	3
+Nightmare Chill	3
+Divorce Shining	3
+Tuxedo Mile	3
+Orient Closer	3
+Human Graffiti	3
+Sweet Brotherhood	3
+Goldfinger Sensibility	3
+Torque Bound	3
+Fight Jawbreaker	3
+Train Bunch	3
+Treatment Jekyll	3
+Squad Fish	3
+Flash Wars	3
+Crowds Telemark	3
+United Pilot	3
+Hustler Party	3
+Reunion Witches	3
+Papi Necklace	3
+Sting Personal	3
+Wisdom Worker	3
+Honey Ties	3
+Mummy Creatures	3
+Sweethearts Suspects	3
+Zorro Ark	3
+Wait Cider	3
+Casualties Encino	3
+Velvet Terminator	3
+Money Harold	3
+Image Princess	3
+Pacific Amistad	3
+World Leathernecks	3
+Chocolate Duck	3
+Pearl Destiny	3
+Egypt Tenenbaums	3
+Saturday Lambs	3
+Tycoon Gathering	3
+Beast Hunchback	3
+Hoosiers Birdcage	3
+Potluck Mixed	3
+Kramer Chocolate	3
+Doors President	3
+Arizona Bang	3
+Midsummer Groundhog	3
+Lover Truman	3
+Jeepers Wedding	3
+None Spiking	3
+Jeopardy Encino	3
+Park Citizen	3
+Clerks Angels	3
+Brotherhood Blanket	3
+Mannequin Worst	3
+Modern Dorado	3
+Telegraph Voyage	3
+
+Avg rental duration with revenue
+
+SELECT A.film_id,A.title,AVG(rental_duration) AS avg_rental_duration,SUM(D.amount) AS revenue									
+FROM film A									
+INNER JOIN inventory B ON A.film_id = B.film_id									
+INNER JOIN rental C ON B.inventory_id = C.inventory_id									
+INNER JOIN payment D ON C.rental_id = D.rental_id									
+GROUP BY A.film_id									
+ORDER BY revenue DESC									
+
+Output
+
+film_id	title	Avg rental duration	Revenue
+879	Telegraph Voyage	3	215.75
+1000	Zorro Ark	3	199.72
+973	Wife Turn	3	198.73
+460	Innocent Usual	3	191.74
+444	Hustler Party	3	190.78
+764	Saturday Lambs	3	190.74
+893	Titans Jerk	4	186.73
+403	Harry Idaho	5	177.73
+897	Torque Bound	3	169.76
+239	Dogma Family	5	168.72
+670	Pelican Comforts	4	165.77
+369	Goodfellas Salute	4	164.75
+327	Fool Mockingbird	3	162.79
+31	Apache Divine	5	160.72
+284	Enemy Odds	5	159.75
+127	Cat Coneheads	5	159.73
+771	Scorpion Apollo	3	158.79
+715	Range Moonwalker	3	158.77
+767	Scalawag Duck	6	157.71
+865	Sunrise League	3	155.78
+527	Lola Agent	4	154.77
+551	Maiden Home	3	152.78
+938	Velvet Terminator	3	152.77
+159	Closer Bang	5	152.76
+103	Bucket Brotherhood	7	150.72
+846	Sting Personal	3	149.8
+892	Titanic Boondock	3	149.78
+563	Massacre Usual	6	149.75
+624	Nightmare Chill	3	148.79
+941	Videotape Arsenic	4	148.76
+21	American Circus	3	146.81
+979	Witches Panic	6	146.75
+791	Show Lord	3	145.78
+579	Minds Truman	3	144.81
+989	Working Microcosmos	4	144.78
+985	Wonderland Christmas	4	142.79
+408	Head Stranger	4	142.79
+972	Whisperer Giant	4	141.8
+330	Forrester Comancheros	7	141.74
+48	Backlash Undefeated	3	140.84
+244	Dorado Notting	5	140.78
+86	Boogie Amelie	6	140.74
+778	Secrets Paradise	3	139.82
+580	Mine Titans	3	138.83
+838	Stagecoach Armageddon	5	138.77
+683	Pity Bound	5	138.77
+856	Streetcar Intentions	5	137.77
+745	Roses Treasure	5	137.77
+307	Fellowship Autumn	6	137.76
+843	Steel Santa	4	136.78
+174	Confidential Interview	6	136.76
+911	Trip Newton	7	135.74
+324	Flintstones Happiness	3	134.83
+350	Garden Island	3	134.82
+861	Suit Walls	3	134.81
+267	Eagles Panky	4	134.81
+320	Flamingos Connecticut	4	134.78
+45	Attraction Newton	5	133.78
+902	Trading Pinocchio	6	133.77
+271	Easy Gladiator	5	132.8
+409	Heartbreakers Bright	3	132.8
+263	Durham Panky	6	132.76
+596	Moonshine Cabin	4	131.8
+614	Name Detective	5	131.78
+253	Drifter Commandments	5	131.78
+10	Aladdin Calendar	6	131.77
+172	Coneheads Smoochy	7	131.76
+521	Lies Treatment	7	131.76
+575	Midsummer Groundhog	3	129.82
+227	Details Packer	4	128.82
+706	Queen Luke	5	128.79
+898	Tourist Pelican	4	126.81
+755	Sabrina Midnight	5	126.79
+500	Kiss Glory	5	126.79
+518	Liaisons Sweet	5	126.79
+775	Seattle Expecations	4	125.8
+61	Beauty Grease	5	125.79
+603	Movie Shakespeare	6	125.78
+361	Gleaming Jawbreaker	5	125.72
+135	Chance Resurrection	3	124.76
+112	Calendar Gunfight	4	123.82
+412	Heavyweights Beast	6	123.78
+763	Satisfaction Confidential	3	122.84
+995	Yentl Idaho	5	122.79
+167	Coma Head	6	122.77
+131	Center Dinosaur	5	121.79
+804	Sleeping Suspects	7	121.78
+698	Princess Giant	3	121.77
+702	Pulp Beverly	4	121.74
+215	Dawn Pond	4	120.83
+501	Kissing Dolls	3	120.83
+818	Something Duck	4	120.82
+908	Trap Guys	3	119.85
+680	Pinocchio Simon	4	119.82
+710	Rage Games	4	119.81
+73	Bingo Talented	5	119.75
+243	Doors President	3	118.82
+222	Desert Poseidon	4	118.81
+556	Maltese Hope	6	118.79
+869	Suspects Quills	4	118.73
+313	Fidelity Devil	5	117.82
+814	Snatch Slipper	6	117.8
+415	High Encino	3	117.79
+964	Waterfront Deliverance	4	116.84
+572	Metropolis Coma	4	116.76
+621	Network Peak	5	116.73
+734	Road Roxanne	4	115.83
+439	Hunchback Impossible	4	115.83
+69	Beverly Outlaw	3	115.79
+334	Freddy Storm	6	115.79
+183	Conversation Downhill	4	114.83
+129	Cause Date	3	114.81
+971	Whale Bikini	4	113.85
+506	Lady Stage	4	113.84
+720	Redemption Comforts	3	113.8
+857	Strictly Scarface	3	113.77
+777	Secretary Rouge	5	112.82
+6	Agent Truman	3	111.81
+590	Money Harold	3	111.8
+117	Candles Grapes	6	111.8
+583	Mission Zoolander	3	110.84
+465	Interview Liaisons	4	110.82
+694	Prejudice Oleander	6	110.81
+730	Ridgemont Submarine	3	110.72
+878	Teen Apollo	3	109.86
+785	Shawshank Bubble	6	109.81
+35	Arachnophobia Rollercoaster	4	109.77
+433	Horn Working	4	109.77
+109	Butterfly Chocolat	3	108.74
+170	Command Darling	5	107.84
+354	Ghost Groundhog	6	107.81
+676	Philadelphia Wife	7	107.8
+768	Scarface Bang	3	106.84
+100	Brooklyn Desert	7	106.81
+300	Falcon Volume	5	106.81
+827	Spice Sorority	5	106.81
+946	Virtual Spoilers	3	105.87
+346	Galaxy Sweethearts	4	105.84
+512	League Hellfighters	5	105.83
+725	Requiem Tycoon	6	105.82
+139	Chasing Fight	7	105.82
+776	Secret Groundhog	6	105.81
+723	Reign Gentlemen	3	105.81
+255	Driving Polish	6	105.81
+162	Clueless Bucket	4	105.77
+854	Strangers Graffiti	4	104.86
+95	Breakfast Goldfinger	5	104.84
+484	Jerk Paycheck	3	104.81
+961	Wash Heavenly	7	104.8
+915	Truman Crazy	7	104.8
+37	Arizona Bang	3	104.79
+397	Hanky October	5	104.77
+919	Tycoon Gathering	3	103.88
+805	Sleepless Monsoon	5	103.83
+578	Million Ace	4	103.83
+637	Open African	7	103.81
+25	Angels Life	3	103.8
+199	Cupboard Sinners	4	103.78
+378	Greatest North	5	103.73
+77	Birds Perdition	5	102.83
+922	Undefeated Dalmations	7	102.81
+823	South Wait	4	102.79
+331	Forward Temple	6	102.74
+891	Timberland Sky	3	102.74
+666	Paycheck Wait	4	101.84
+44	Attacks Hate	5	101.84
+871	Sweden Shining	6	101.83
+294	Expecations Natural	5	101.83
+760	Samurai Lion	5	101.76
+895	Tomorrow Hustler	3	101.76
+691	Poseidon Forever	6	100.83
+356	Giant Troopers	5	100.74
+468	Invasion Cyclone	5	100.74
+175	Confused Candles	3	99.84
+845	Stepmom Dream	7	99.81
+502	Knock Warlock	4	99.79
+285	English Bulworth	3	99.74
+392	Hall Cassidy	5	98.84
+274	Egg Igby	4	98.81
+101	Brotherhood Blanket	3	98.77
+887	Thief Pelican	5	97.84
+476	Jason Trap	5	97.77
+382	Grit Clockwork	3	97.72
+738	Rocketeer Mother	3	97.72
+789	Shock Cabin	7	96.71
+483	Jericho Mulan	3	95.84
+456	Inch Jet	6	95.82
+759	Salute Apollo	4	95.8
+349	Gangs Pride	4	95.78
+445	Hyde Doctor	5	95.76
+71	Bilko Anonymous	3	94.88
+365	Gold River	4	94.86
+570	Mermaid Insects	5	94.85
+336	French Holiday	5	94.84
+370	Gorgeous Bingo	4	94.83
+668	Peak Forever	7	94.82
+665	Patton Interview	4	94.79
+304	Fargo Gandhi	3	94.79
+319	Fish Opus	4	94.78
+295	Expendable Stallion	3	94.74
+835	Spy Mile	6	94.73
+216	Day Unfaithful	3	93.88
+678	Pickup Driving	3	93.85
+859	Sugar Wonka	3	93.85
+59	Bear Graceland	4	93.81
+114	Camelot Vacation	3	93.76
+873	Sweethearts Suspects	3	93.73
+969	West Lion	4	92.86
+396	Hanging Deep	5	92.85
+184	Core Suit	3	92.84
+486	Jet Neighbors	7	92.83
+414	Hellfighters Sierra	3	92.81
+305	Fatal Haunted	6	92.77
+798	Silverado Goldfinger	4	91.88
+226	Destiny Saturday	4	91.85
+51	Balloon Homeward	5	91.78
+260	Dude Blindness	3	90.87
+980	Wizard Coldblooded	4	90.85
+447	Ice Crossing	5	90.78
+704	Pure Runner	3	89.85
+165	Coldblooded Darling	7	89.84
+451	Igby Maker	7	89.83
+930	Vacation Boondock	4	89.81
+739	Rocky War	4	88.87
+568	Memento Zoolander	4	88.87
+116	Candidate Perdition	4	88.82
+571	Metal Armageddon	6	88.79
+880	Telemark Heartbreakers	6	88.76
+450	Idols Snatchers	5	88.76
+65	Behavior Runaway	3	87.89
+98	Bright Encounters	4	87.88
+321	Flash Wars	3	87.88
+446	Hysterical Grail	5	87.85
+212	Darn Forrester	7	87.83
+57	Basic Easy	4	87.8
+166	Color Philadelphia	6	87.78
+649	Oz Liaisons	4	87.78
+654	Panky Submarine	4	86.88
+8	Airport Pollock	6	86.85
+803	Slacker Liaisons	7	86.84
+944	Virgin Daisy	6	86.84
+773	Seabiscuit Punk	6	86.76
+609	Muscle Bright	7	86.73
+489	Juggler Hardly	4	86.71
+203	Daisy Menagerie	5	85.86
+844	Steers Armageddon	6	85.85
+735	Robbers Joon	7	85.74
+179	Conquerer Nuts	4	84.87
+141	Chicago North	6	84.85
+772	Sea Virgin	4	84.81
+15	Alien Center	5	84.8
+55	Barbarella Streetcar	6	84.78
+559	Married Go	7	84.74
+682	Pittsburgh Hunchback	4	83.89
+655	Panther Reds	5	83.86
+532	Loser Hustler	5	83.86
+757	Sagebrush Clueless	4	83.86
+265	Dying Maker	5	83.85
+329	Forrest Sons	4	83.83
+841	Star Operation	5	83.8
+4	Affair Prejudice	5	83.79
+644	Oscar Gold	7	83.75
+611	Musketeers Wait	7	82.85
+421	Holiday Games	7	82.85
+7	Airplane Sierra	6	82.85
+123	Casablanca Super	6	82.84
+443	Hurricane Affair	6	82.77
+662	Paths Control	3	81.9
+398	Hanover Galaxy	5	81.86
+115	Campus Remember	5	81.83
+753	Rush Goodfellas	3	81.72
+251	Dragonfly Strangers	6	80.86
+667	Peach Innocent	3	80.86
+438	Human Graffiti	3	80.85
+643	Orient Closer	3	80.83
+936	Vanishing Rocky	3	80.83
+958	Wardrobe Phantom	6	80.77
+638	Operation Operation	7	80.75
+272	Edge Kissing	5	79.87
+68	Betrayed Rear	5	79.87
+70	Bikini Borrowers	7	79.86
+121	Carol Texas	4	79.83
+657	Paradise Sabrina	5	79.82
+852	Strangelove Desire	4	79.78
+625	None Spiking	3	79.75
+867	Super Wyoming	5	78.88
+858	Submarine Bed	5	78.87
+749	Rules Human	6	78.87
+385	Groundhog Uncut	6	78.86
+229	Devil Desire	6	78.86
+481	Jekyll Frogmen	4	78.84
+464	Intentions Empire	3	78.83
+608	Murder Antitrust	6	78.79
+78	Blackout Private	7	78.77
+181	Contact Anonymous	7	78.76
+901	Tracy Cider	3	78.76
+220	Deer Virginian	7	78.76
+711	Raging Airplane	4	77.88
+708	Quills Bull	4	77.87
+190	Creepers Kane	5	77.87
+628	Northwest Polish	5	77.82
+326	Flying Hook	6	77.81
+402	Harper Dying	3	77.8
+707	Quest Mussolini	5	77.8
+234	Disturbing Scarface	6	77.77
+154	Clash Freddy	6	77.77
+434	Horror Reign	3	77.75
+531	Lose Inch	3	77.74
+588	Model Fish	4	76.87
+917	Tuxedo Mile	3	76.87
+956	Wanda Chamber	7	76.86
+381	Grinch Massage	7	76.86
+510	Lawless Vision	6	76.86
+453	Image Princess	3	76.86
+50	Baked Cleopatra	3	76.85
+806	Sleepy Japanese	4	76.83
+616	National Story	4	76.83
+920	Unbreakable Karate	3	76.81
+782	Shakespeare Saddle	6	76.8
+49	Badman Dawn	6	76.79
+471	Island Exorcist	7	76.77
+177	Connecticut Tramp	4	75.89
+597	Moonwalker Fool	5	75.89
+219	Deep Crusade	6	75.87
+420	Holes Brannigan	7	75.86
+774	Searchers Wait	3	75.86
+820	Sons Interview	3	75.85
+83	Blues Instinct	5	75.82
+912	Trojan Tomorrow	3	75.82
+43	Atlantis Cause	6	75.79
+554	Malkovich Pet	6	75.77
+46	Autumn Crow	3	74.9
+74	Birch Antitrust	4	74.89
+455	Impossible Prejudice	7	74.86
+542	Lust Lock	3	74.82
+322	Flatliners Killer	5	74.81
+193	Crossroads Casualties	5	74.8
+288	Escape Metropolis	7	74.77
+341	Frost Head	5	74.72
+888	Thin Sagebrush	5	73.89
+113	California Birds	4	73.89
+686	Pluto Oleander	5	73.87
+987	Words Hunter	3	73.86
+648	Outlaw Hanky	7	73.86
+953	Wait Cider	3	73.82
+302	Fantasia Park	5	73.81
+252	Dream Pickup	6	73.8
+391	Half Outfield	6	73.79
+210	Darko Dorado	3	72.9
+432	Hope Tootsie	4	72.83
+67	Berets Agent	5	72.8
+247	Downhill Enough	3	72.79
+151	Cincinatti Whisperer	5	71.89
+9	Alabama Devil	3	71.88
+81	Blindness Gun	6	71.87
+473	Jacket Frisco	5	71.84
+967	Weekend Personal	5	71.83
+966	Wedding Apollo	3	71.79
+765	Saturn Name	7	70.87
+173	Confessions Maguire	7	70.87
+480	Jeepers Wedding	3	70.87
+308	Ferris Mother	3	70.85
+724	Remember Diary	5	70.83
+914	Trouble Date	6	70.81
+645	Others Soup	7	70.8
+353	Gentlemen Stage	6	70.8
+22	Amistad Midsummer	6	70.79
+555	Mallrats United	4	70.78
+214	Daughter Madigan	3	69.91
+889	Ties Hunger	3	69.91
+60	Beast Hunchback	3	69.9
+933	Vampire Whale	4	69.89
+169	Comforts Rush	3	69.85
+463	Instinct Airport	4	69.83
+968	Werewolf Lola	6	68.88
+323	Flight Lies	7	68.88
+448	Idaho Love	3	68.85
+298	Eyes Driving	4	68.84
+99	Bringing Hysterical	7	68.81
+418	Hobbit Alien	5	68.74
+20	Amelie Hellfighters	4	67.9
+519	Liberty Magnificent	3	67.89
+231	Dinosaur Secretary	7	67.81
+366	Goldfinger Sensibility	3	67.79
+491	Jumping Wrath	4	67.79
+374	Graffiti Love	3	67.74
+748	Rugrats Shakespeare	4	67.72
+120	Caribbean Liberty	3	66.92
+918	Twisted Pirates	4	66.89
+426	Home Pity	7	66.88
+207	Dangerous Uptown	7	66.88
+661	Past Suicides	5	66.88
+137	Charade Duffel	3	66.87
+84	Boiled Dares	7	66.87
+991	Worst Banger	4	66.85
+999	Zoolander Fiction	5	66.85
+275	Egypt Tenenbaums	3	66.84
+689	Pollock Deliverance	5	66.82
+986	Wonka Sea	6	66.82
+853	Stranger Strangers	3	65.9
+133	Chamber Italian	7	65.88
+957	War Notting	7	65.88
+929	Usual Untouchables	5	65.88
+529	Lonely Elephant	3	65.87
+138	Chariots Conspiracy	5	65.81
+437	House Dynamite	7	65.8
+816	Snowman Rollercoaster	3	65.79
+545	Madness Attacks	4	65.77
+312	Fiddler Lost	4	64.9
+277	Elephant Trojan	4	64.9
+389	Gunfighter Mussolini	3	64.89
+544	Madison Trap	4	64.87
+236	Divine Resurrection	4	64.85
+870	Swarm Gold	4	64.77
+202	Daddy Pittsburgh	5	63.89
+28	Anthem Luke	5	63.89
+599	Mother Oleander	3	63.87
+72	Bill Others	6	63.82
+134	Champion Flatliners	4	62.9
+347	Games Bowfinger	7	62.88
+536	Lovely Jingle	3	62.87
+693	Potter Connecticut	5	62.85
+351	Gaslight Crusade	4	62.84
+254	Driver Annie	4	62.84
+716	Reap Unfaithful	6	62.84
+619	Neighbors Charade	3	62.83
+514	Lebowski Soldiers	6	62.82
+993	Wrong Behavior	6	62.8
+228	Detective Vision	4	62.76
+525	Loathing Legally	4	62.74
+126	Casualties Encino	3	61.92
+994	Wyoming Storm	6	61.89
+17	Alone Trip	3	61.83
+462	Insider Arizona	5	61.83
+690	Pond Seattle	7	61.82
+235	Divide Monster	6	61.8
+292	Excitement Eve	3	61.8
+641	Orange Grapes	4	61.78
+824	Spartacus Cheaper	4	60.91
+640	Opus Ice	5	60.9
+626	Noon Papi	5	60.85
+269	Earring Instinct	3	60.83
+800	Sinners Atlantis	7	60.81
+266	Dynamite Tarzan	4	60.77
+301	Family Sweet	4	60.73
+499	King Evolution	3	59.92
+487	Jingle Sagebrush	6	59.89
+88	Born Spinal	7	59.88
+478	Jaws Harry	4	59.87
+620	Nemo Campus	5	59.86
+42	Artist Coldblooded	5	59.86
+557	Manchurian Curtain	5	59.86
+429	Honey Ties	3	59.84
+56	Barefoot Manchurian	6	59.83
+158	Clones Pinocchio	6	59.83
+428	Homicide Peach	6	59.82
+811	Smile Earring	4	58.9
+872	Sweet Brotherhood	3	58.89
+615	Nash Chocolat	6	58.87
+242	Doom Dancing	4	58.83
+344	Fury Murder	3	58.83
+311	Fiction Christmas	4	58.81
+142	Chicken Hellfighters	3	58.81
+651	Packer Madigan	3	58.8
+417	Hills Neighbors	5	58.79
+633	October Submarine	6	57.9
+508	Lambs Cincinatti	6	57.9
+881	Temple Attraction	5	57.9
+796	Sierra Divide	3	57.85
+317	Fireball Philadelphia	4	57.81
+93	Brannigan Sunrise	4	56.91
+276	Element Freddy	6	56.9
+342	Fugitive Maguire	7	56.89
+564	Massage Image	4	56.89
+639	Opposite Necklace	7	56.89
+92	Bowfinger Gables	7	56.89
+567	Meet Chocolate	3	56.89
+916	Turn Star	3	56.88
+449	Identity Lover	4	56.88
+189	Creatures Shakespeare	3	56.84
+90	Boulevard Mob	3	56.84
+150	Cider Desire	7	56.83
+733	River Outlaw	4	56.82
+245	Double Wrath	4	56.79
+376	Grapes Fury	4	56.77
+842	State Wasteland	4	55.89
+24	Analyze Hoosiers	6	55.86
+58	Beach Heartbreakers	6	55.86
+606	Mummy Creatures	3	55.85
+380	Greek Everyone	7	55.83
+851	Straight Hours	3	55.81
+548	Magnificent Chitty	3	54.92
+591	Monsoon Cause	6	54.91
+537	Lover Truman	3	54.91
+13	Ali Forever	4	54.91
+709	Racer Egg	7	54.83
+204	Dalmations Sweden	4	54.82
+647	Outfield Massacre	4	54.82
+890	Tights Dawn	5	54.76
+75	Bird Independence	6	53.91
+338	Frisco Forrest	6	53.91
+632	Nuts Ties	5	53.91
+152	Circus Youth	5	53.86
+474	Jade Bunch	6	53.85
+672	Perfect Groove	7	53.84
+314	Fight Jawbreaker	3	53.8
+586	Mockingbird Hollywood	4	53.78
+2	Ace Goldfinger	3	52.93
+390	Guys Falcon	4	52.92
+246	Doubtfire Labyrinth	5	52.91
+934	Vanilla Day	7	52.91
+731	Right Cranes	7	52.9
+780	Sensibility Rear	7	52.9
+705	Purple Movie	4	52.88
+783	Shane Darkness	5	52.87
+664	Patriot Roman	6	52.85
+975	Willow Tracy	6	52.85
+358	Gilmore Boiled	5	52.76
+653	Panic Club	3	51.93
+627	North Tequila	4	51.91
+679	Pilot Hoosiers	6	51.86
+286	Enough Raging	7	51.84
+601	Moulin Wake	4	51.84
+746	Rouge Squad	3	51.84
+23	Anaconda Confessions	3	51.82
+494	Karate Moon	4	51.8
+145	Chisum Behavior	5	50.9
+533	Lost Bird	4	50.9
+469	Iron Moon	7	50.9
+977	Window Side	3	50.89
+728	Reunion Witches	3	50.82
+26	Annie Identity	3	50.81
+863	Sun Confessions	5	50.77
+395	Handicap Boondock	4	50.76
+91	Bound Cheaper	5	50.76
+932	Valley Packer	3	49.88
+293	Exorcist Sting	6	49.88
+561	Mask Peach	6	49.86
+410	Heaven Freedom	7	49.85
+631	Novocaine Flight	4	49.82
+147	Chocolat Harry	5	49.81
+206	Dancing Fever	6	49.76
+659	Park Citizen	3	48.94
+543	Madigan Dorado	5	48.92
+371	Gosford Donnie	5	48.92
+587	Mod Secretary	6	48.91
+729	Rider Caddyshack	5	48.89
+592	Monster Spartacus	6	48.86
+937	Varsity Trip	7	48.84
+496	Kick Savannah	3	48.83
+737	Rock Instinct	4	48.83
+807	Sleuth Orient	4	48.81
+810	Slums Duck	5	48.78
+779	Sense Greek	4	47.93
+721	Reds Pocus	7	47.92
+503	Kramer Chocolate	3	47.91
+5	African Egg	6	47.89
+546	Madre Gables	7	47.87
+232	Dirty Ace	7	47.87
+988	Worker Tarzan	7	47.86
+345	Gables Metropolis	3	47.83
+406	Haunting Pianist	5	47.8
+945	Virginian Pluto	5	47.75
+384	Grosse Wonderful	5	46.92
+984	Wonderful Drop	3	46.92
+905	Trainspotting Strangers	7	46.91
+837	Stage World	4	46.9
+16	Alley Evolution	6	46.87
+793	Shrunk Divine	6	46.87
+900	Town Ark	6	46.87
+913	Troopers Metal	3	46.86
+111	Caddyshack Jedi	3	46.86
+458	Indian Love	4	46.85
+623	Newton Labyrinth	4	46.84
+388	Gunfight Moon	5	46.79
+156	Clerks Angels	3	45.94
+124	Casper Dragonfly	3	45.93
+528	Lolita World	4	45.91
+104	Bugsy Song	4	45.91
+209	Darkness War	6	45.88
+927	Uprising Uptown	6	45.87
+681	Pirates Roxanne	4	45.81
+197	Crusade Honey	4	44.93
+211	Darling Breaking	7	44.92
+826	Speed Suit	7	44.92
+788	Ship Wonderland	5	44.86
+436	Hours Rage	4	44.82
+256	Drop Waterfront	6	43.92
+30	Anything Savannah	4	43.92
+692	Potluck Mixed	3	43.9
+573	Microcosmos Paradise	6	43.88
+673	Personal Ladybugs	3	43.87
+201	Cyclone Family	7	43.87
+333	Freaky Pocus	7	43.86
+784	Shanghai Tycoon	7	43.86
+925	United Pilot	3	43.85
+363	Go Purple	3	43.83
+650	Pacific Amistad	3	43.81
+367	Goldmine Tycoon	6	43.76
+470	Ishtar Rocketeer	4	42.94
+750	Run Pacific	3	42.91
+960	Wars Pluto	5	42.9
+296	Express Lonely	5	42.88
+770	Scissorhands Slums	5	42.88
+589	Modern Dorado	3	42.88
+921	Uncut Suicides	7	42.87
+287	Entrapment Satisfaction	5	42.87
+847	Stock Glass	7	42.87
+373	Graduate Lord	7	42.87
+526	Lock Rear	7	42.86
+504	Kwai Homeward	5	42.8
+951	Voyage Legally	6	42.75
+849	Storm Happiness	6	42.74
+703	Punk Divorce	6	41.93
+431	Hoosiers Birdcage	3	41.92
+582	Miracle Virtual	3	41.92
+435	Hotel Happiness	6	41.92
+96	Breaking Home	4	41.9
+825	Speakeasy Date	6	41.89
+660	Party Knock	7	41.88
+213	Date Speed	4	41.88
+505	Labyrinth League	6	41.87
+39	Armageddon Lost	5	41.8
+289	Eve Resurrection	5	40.93
+161	Clue Grail	6	40.93
+47	Baby Hall	5	40.93
+685	Platoon Instinct	6	40.92
+565	Matrix Snowman	6	40.92
+375	Grail Frankenstein	4	40.92
+876	Tarzan Videotape	3	40.92
+337	Frida Slipper	6	40.9
+962	Wasteland Divine	7	40.88
+658	Paris Weekend	7	40.88
+442	Hunting Musketeers	6	40.88
+328	Forever Candidate	7	40.88
+383	Groove Fiction	6	40.83
+906	Tramp Others	4	40.82
+54	Banger Pinocchio	5	40.8
+833	Splendor Patton	5	40.79
+273	Effect Gladiator	6	40.79
+687	Pocus Pulp	6	40.75
+884	Terminator Club	5	39.94
+485	Jersey Sassy	6	39.94
+316	Fire Wolves	5	39.93
+466	Intolerable Intentions	6	39.93
+515	Legally Secretary	7	39.92
+422	Hollow Jeopardy	7	39.92
+740	Rollercoaster Bringing	5	39.91
+530	Lord Arizona	5	39.9
+394	Hamlet Wisdom	7	39.88
+829	Spinal Rocky	7	39.87
+652	Pajama Jawbreaker	3	39.86
+110	Cabin Flash	4	39.86
+233	Disciple Mother	3	39.82
+602	Mourning Purple	5	39.81
+472	Italian African	3	38.94
+719	Records Zorro	7	38.93
+828	Spiking Element	7	38.88
+574	Midnight Westward	3	38.84
+282	Encounters Curtain	5	38.82
+160	Club Graffiti	4	38.82
+982	Women Dorado	4	38.81
+191	Crooked Frogmen	6	38.79
+677	Pianist Outfield	6	38.78
+372	Graceland Dynamite	5	37.94
+939	Vertigo Northwest	4	37.92
+522	Life Twisted	4	37.92
+364	Godfather Diary	3	37.92
+815	Snatchers Montezuma	4	37.91
+700	Prix Undefeated	4	37.9
+792	Shrek License	7	37.88
+744	Roots Remember	4	37.86
+488	Joon Northwest	3	37.84
+164	Coast Rainbow	4	37.82
+12	Alaska Phantom	6	37.77
+119	Caper Motions	6	37.77
+268	Early Home	6	36.94
+817	Soldiers Evolution	7	36.93
+279	Elizabeth Shane	7	36.93
+257	Drumline Cyclone	3	36.9
+40	Army Flintstones	4	36.86
+618	Necklace Outbreak	3	36.86
+552	Majestic Floats	5	36.85
+864	Sundance Invasion	5	36.82
+461	Insects Stone	3	36.81
+467	Intrigue Worst	6	36.81
+790	Shootist Superfly	6	36.77
+970	Westward Seabiscuit	7	36.75
+697	Primary Glass	7	36.73
+769	School Jacket	5	35.94
+340	Frontier Cabin	6	35.94
+695	President Bang	6	35.94
+102	Bubble Grosse	4	35.94
+360	Glass Dying	4	35.88
+303	Fantasy Troopers	6	35.79
+850	Story Side	7	35.74
+595	Moon Bunch	7	35.74
+278	Elf Murder	4	34.94
+549	Magnolia Forrester	4	34.89
+3	Adaptation Holes	7	34.89
+452	Illusion Amelie	4	34.87
+241	Donnie Alley	4	34.87
+877	Taxi Kick	4	34.83
+457	Independence Hotel	5	34.82
+200	Curtain Videotape	7	34.77
+270	Earth Vision	7	34.77
+122	Carrie Bunch	7	34.77
+875	Talented Homicide	6	34.76
+310	Fever Empire	5	33.95
+550	Maguire Apache	6	33.91
+952	Wagon Jaws	7	33.91
+187	Cranes Reservoir	5	33.91
+80	Blanket Beverly	7	33.9
+577	Mile Mulan	4	33.89
+832	Splash Gump	5	33.86
+963	Watch Tracy	5	33.85
+524	Lion Uncut	6	33.83
+1	Academy Dinosaur	6	33.79
+976	Wind Phantom	6	33.79
+883	Tequila Past	6	32.94
+411	Heavenly Gun	5	32.94
+106	Bulworth Commandments	4	32.93
+848	Stone Fire	3	32.9
+553	Maker Gables	4	32.9
+540	Lucky Flying	7	32.9
+756	Saddle Antitrust	7	32.89
+736	Robbery Bright	4	32.88
+840	Stampede Disturbing	5	32.86
+862	Summer Scarface	5	32.86
+949	Volcano Texas	6	32.81
+19	Amadeus Holy	6	32.8
+248	Dozen Lion	6	31.94
+405	Haunted Antitrust	6	31.94
+182	Control Anthem	7	31.94
+224	Desperate Trainspotting	7	31.94
+758	Saints Bride	5	31.92
+225	Destination Jerk	3	31.92
+306	Feathers Metal	3	31.91
+714	Random Go	6	31.91
+413	Hedwig Alter	7	31.9
+576	Mighty Luck	7	31.9
+819	Song Hedwig	3	31.9
+617	Natural Stock	4	31.88
+732	Rings Heartbreakers	5	31.87
+85	Bonnie Holocaust	4	31.85
+948	Voice Peach	6	31.83
+646	Outbreak Divine	6	31.82
+176	Congeniality Quest	6	31.81
+132	Chainsaw Uptown	6	31.81
+309	Feud Frogmen	6	31.8
+781	Seven Swarm	4	30.95
+82	Blood Argonauts	3	30.93
+490	Jumanji Blade	4	30.92
+604	Mulan Moon	4	30.89
+886	Theory Mermaid	5	30.88
+299	Factory Dragon	4	30.85
+560	Mars Roman	6	30.83
+140	Cheaper Clyde	6	30.83
+18	Alter Victory	6	30.8
+387	Gun Bonnie	7	30.79
+11	Alamo Videotape	6	30.78
+368	Gone Trouble	7	29.92
+393	Halloween Nuts	6	29.92
+978	Wisdom Worker	3	29.91
+726	Reservoir Adaptation	7	29.91
+761	Santa Paris	7	29.9
+928	Uptown Young	5	29.9
+794	Side Ark	5	29.88
+747	Roxanne Rebel	5	29.83
+79	Blade Polish	5	29.81
+143	Chill Luck	6	29.79
+541	Luke Mummy	5	28.93
+926	Untouchables Sunrise	5	28.93
+185	Cowboy Doom	3	28.93
+146	Chitty Lock	6	28.92
+264	Dwarfs Alter	6	28.92
+983	Won Dares	7	28.91
+482	Jeopardy Encino	3	28.9
+896	Tootsie Pilot	3	28.88
+205	Dances None	3	28.87
+534	Louisiana Harry	5	28.84
+130	Celebrity Horn	7	28.79
+786	Shepherd Midsummer	7	28.77
+459	Informer Double	4	27.95
+836	Squad Fish	3	27.93
+29	Antitrust Tomatoes	5	27.93
+656	Papi Necklace	3	27.93
+240	Dolls Rage	7	27.92
+585	Mob Duffel	4	27.9
+581	Minority Kiss	4	27.89
+250	Dragon Squad	4	27.89
+155	Cleopatra Devil	6	27.85
+717	Rear Trading	6	27.85
+743	Room Roman	7	27.82
+416	Highball Potter	6	27.81
+281	Encino Elf	6	27.81
+118	Canyon Stock	7	27.81
+377	Grease Youth	7	27.8
+699	Private Drop	7	26.95
+208	Dares Pluto	7	26.92
+923	Unfaithful Kill	7	26.92
+674	Pet Haunting	3	26.92
+188	Crazy Home	7	26.91
+315	Finding Anaconda	4	26.9
+291	Evolution Alter	5	26.88
+280	Empire Malkovich	7	26.81
+149	Christmas Moonshine	7	26.81
+107	Bunch Minds	4	25.95
+684	Pizza Jumanji	4	25.94
+223	Desire Alien	7	25.92
+600	Motions Details	5	25.87
+907	Translation Summer	4	25.87
+89	Borrowers Bedazzled	7	25.8
+741	Roman Punk	7	25.79
+904	Train Bunch	3	24.96
+441	Hunter Alter	5	24.95
+903	Traffic Hobbit	5	24.95
+32	Apocalypse Flamingos	6	24.95
+62	Bed Highball	5	24.94
+230	Diary Panic	7	24.92
+990	World Leathernecks	3	24.92
+636	Oleander Clue	5	24.91
+629	Notorious Reunion	7	24.87
+258	Drums Dynamite	6	24.87
+809	Slipper Fidelity	5	24.86
+562	Masked Bubble	6	24.81
+727	Resurrection Silverado	6	24.81
+218	Deceiver Betrayed	7	24.8
+981	Wolves Desire	7	24.79
+558	Mannequin Worst	3	23.95
+238	Doctor Grail	4	23.95
+125	Cassidy Wyoming	5	23.94
+163	Clyde Theory	4	23.92
+136	Chaplin License	7	23.92
+76	Birdcage Casper	4	23.91
+722	Reef Salute	5	23.89
+492	Jungle Closer	6	23.88
+427	Homeward Cider	5	23.84
+424	Holocaust Highball	6	23.84
+517	Lesson Cleopatra	3	22.94
+399	Happiness United	6	22.94
+297	Extraordinary Conquerer	6	22.94
+53	Bang Kwai	5	22.93
+622	Newsies Story	4	22.93
+787	Shining Roses	4	22.92
+766	Savannah Town	5	22.9
+290	Everyone Craft	4	22.89
+992	Wrath Mile	5	22.87
+535	Love Suicides	6	22.85
+924	Unforgiven Zoolander	7	22.84
+249	Dracula Crystal	7	22.81
+237	Divorce Shining	3	21.95
+959	Warlock Werewolf	6	21.94
+498	Killer Innocent	7	21.94
+513	Leathernecks Dwarfs	6	21.94
+675	Phantom Glory	6	21.94
+539	Luck Opus	7	21.93
+605	Mulholland Beast	7	21.93
+34	Arabia Dogma	6	21.88
+153	Citizen Shrek	7	21.87
+942	Vietnam Smoochy	7	21.86
+105	Bull Shawshank	6	21.84
+663	Patient Sister	7	21.82
+259	Duck Racer	4	20.95
+610	Music Boondock	7	20.83
+479	Jedi Beneath	7	20.82
+97	Bride Intrigue	7	20.82
+352	Gathering Calendar	4	19.9
+593	Monterey Labyrinth	6	19.89
+440	Hunger Roof	6	19.88
+882	Tenenbaums Command	4	19.88
+821	Sorority Queen	6	19.88
+634	Odds Boogie	6	19.87
+894	Tomatoes Hellfighters	6	19.86
+569	Menagerie Rushmore	7	18.94
+799	Simon North	3	18.94
+754	Rushmore Mermaid	6	18.94
+454	Impact Aladdin	6	18.92
+834	Spoilers Hellfighters	4	18.91
+509	Language Cowboy	5	18.9
+831	Spirited Casualties	5	18.9
+186	Craft Outfield	6	18.86
+688	Polish Brooklyn	6	18.85
+507	Ladybugs Armageddon	4	17.94
+520	License Weekend	7	17.94
+547	Magic Mallrats	3	17.93
+613	Mystic Truman	5	17.92
+425	Holy Tadpole	6	17.92
+357	Gilbert Pelican	7	17.91
+283	Ending Crowds	6	17.9
+430	Hook Chariots	7	17.87
+855	Streak Ridgemont	7	17.87
+27	Anonymous Human	7	17.87
+696	Pride Alamo	6	17.85
+812	Smoking Barbarella	7	17.84
+180	Conspiracy Spirit	4	16.95
+94	Braveheart Human	7	16.95
+343	Full Flatliners	6	16.95
+997	Youth Kick	4	16.94
+868	Superfly Trip	5	16.91
+66	Beneath Rush	6	16.9
+339	Frogmen Breaking	5	16.9
+538	Loverboy Attacks	7	16.89
+598	Mosquito Armageddon	6	16.89
+64	Beethoven Exorcist	6	16.89
+348	Gandhi Kwai	7	16.87
+795	Siege Madre	7	16.86
+584	Mixed Doors	6	15.96
+400	Hardly Robbers	7	15.96
+612	Mussolini Spoilers	6	15.95
+974	Wild Apollo	4	15.94
+511	Lawrence Love	7	15.87
+797	Silence Kane	7	15.85
+362	Glory Tracy	7	14.95
+935	Vanished Garden	5	14.94
+808	Sling Luke	5	14.94
+752	Runner Madigan	6	14.92
+194	Crow Grease	6	14.89
+813	Smoochy Control	7	14.88
+63	Bedazzled Married	6	14.88
+762	Sassy Packer	6	14.88
+379	Greedy Roots	7	14.87
+830	Spirit Flintstones	7	14.86
+965	Watership Frontier	6	13.94
+262	Dumbo Lust	5	13.94
+493	Kane Exorcist	5	13.88
+423	Hollywood Anonymous	7	13.87
+407	Hawk Chill	5	12.94
+516	Legend Jedi	7	12.92
+940	Victory Academy	6	12.91
+630	Notting Speakeasy	7	12.91
+931	Valentine Vanishing	7	12.9
+947	Vision Torque	5	11.94
+866	Sunset Racer	6	11.93
+751	Runaway Tenenbaums	6	11.93
+822	Soup Wisdom	6	11.93
+594	Montezuma Command	6	11.91
+157	Clockwork Paradise	7	11.9
+566	Maude Mod	6	10.93
+998	Zhivago Core	6	10.93
+899	Towers Hurricane	7	10.91
+477	Jawbreaker Brooklyn	5	10.91
+168	Comancheros Enemy	5	9.94
+52	Ballroom Mockingbird	6	9.93
+178	Connection Microcosmos	6	8.95
+401	Harold French	6	8.93
+355	Ghostbusters Elf	7	8.93
+475	Japanese Run	6	7.94
+839	Stallion Sundance	5	7.94
+523	Lights Deer	7	7.93
+196	Cruelty Unforgiven	7	6.94
+910	Treatment Jekyll	3	6.94
+718	Rebel Airport	7	6.93
+996	Young Language	6	6.93
+335	Freedom Cleopatra	5	5.95
+885	Texas Watch	7	5.94
+261	Duffel Apocalypse	5	5.94
+635	Oklahoma Jumanji	7	5.94
