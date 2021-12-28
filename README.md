@@ -1,6 +1,5 @@
 <img width="242" alt="Screenshot 2021-12-27 183935" src="https://user-images.githubusercontent.com/96549482/147521968-0397defb-30bd-48e4-aba4-3b9f00bbc51c.png">
 
-
 # Rockbuster Stealth Data Analysis
 Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive. 
 
