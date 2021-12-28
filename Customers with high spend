@@ -1,0 +1,33 @@
+Customers with high lifetime spend, limit 10
+
+SELECT A.customer_ID,B.first_name,B.last_name,D.city,E.country,							
+SUM (amount) AS total_amount_paid_by_customer							
+FROM payment A							
+INNER JOIN customer B ON A.customer_id = B.customer_id							
+INNER JOIN address C ON B.address_id = C.address_id							
+INNER JOIN city D ON C.city_id = D.city_id							
+INNER JOIN country E ON D.country_id = E.country_id							
+WHERE E.country IN							
+('India','China','United States','Japan','Mexico','Brazil','Russian Federation',							
+'Philippines','Turkey','Indonesia'							
+)AND D.city in							
+('Aurora','Atlixco','Xintai','Adoni','Dhule (Dhulia)',							
+'Kurashiki','Pingxiang','Sivas','Celaya','So Leopoldo')							
+GROUP BY A.customer_ID,							
+B.first_name,B.last_name,D.city,E.country							
+ORDER BY total_amount_paid_by_customer DESC							
+LIMIT 10;							
+
+Output
+
+customer_id	first_name	last_name	city	country	total_amount_paid_by_customer	Column1
+84	Sara	Perry	Atlixco	Mexico	128.7	
+518	Gabriel	Harder	Sivas	Turkey	108.75	
+587	Sergio	Stanfield	Celaya	Mexico	102.76	
+537	Clinton	Buford	Aurora	United States	98.76	
+367	Adam	Gooch	Adoni	India	97.8	
+443	Francisco	Skidmore	So Leopoldo	Brazil	93.79	
+34	Rebecca	Scott	Kurashiki	Japan	89.76	
+169	Erica	Matthews	Pingxiang	China	86.8	
+440	Bernard	Colby	Dhule (Dhulia)	India	83.79	
+564	Bob	Pfeiffer	Xintai	China	82.78	
